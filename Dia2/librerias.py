@@ -14,5 +14,7 @@ print(math.sqrt(9)) #calcula la raiz cuadrada y el resultado en formato "float"
 # print(ceil(3.1416)) #importacion especifica de una libreria
 print(math.ceil(3.1416)) #ceil aproxima al entero superior
 
+#pip -v = (win) para saber la version
+#python3 -m pip install --upgrade pip = actualizar pip
 
 
