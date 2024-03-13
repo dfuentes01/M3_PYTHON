@@ -1,0 +1,11 @@
+1-Buscar un lugar seguro y señalizar.
+2-Preparar las herramientas y materiales.
+3-Aflojar pernos.
+4-Levantar el vehiculo.
+5-Retirar los pernos.
+6-Reemplazar la rueda.
+7-Instalar los pernos y apretar con llave.
+8-Bajar el Automovil.
+9-Reapretar pernos.
+10-Verificar el aire de la rueda.
+11-Guardar rueda pinchada, herramientas y señalizacion.
