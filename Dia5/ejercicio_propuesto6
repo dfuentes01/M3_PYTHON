@@ -1,0 +1,23 @@
+
+# Inicio del programa
+inicio
+
+# Identificar Variables
+diagonal mayor, diagonal menor, area
+
+# Recopilar información
+escribir("Ingresar largo diagonal mayor en cm: ")
+Leer(diagonal mayor)
+
+escribir("Ingresar largo diagonal menor en cm: ")
+Leer(diagonal menor)
+
+# Calcular area del triangulo
+area=(diagonal mayor*diagonal menor)/2
+
+# Mostrar los resultados del calculo
+Escribir("El area del rombo es", area, "cm2")
+
+# Fin del programa
+fin
+
