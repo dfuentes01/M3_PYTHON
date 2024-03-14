@@ -3,17 +3,17 @@
 inicio
 
 # Identificar Variables
-diagonal mayor, diagonal menor, area
+diagonal_mayor,diagonal_menor,area
 
 # Recopilar información
 escribir("Ingresar largo diagonal mayor en cm: ")
-Leer(diagonal mayor)
+Leer(diagonal_mayor)
 
 escribir("Ingresar largo diagonal menor en cm: ")
-Leer(diagonal menor)
+Leer(diagonal_menor)
 
 # Calcular area del triangulo
-area=(diagonal mayor*diagonal menor)/2
+area=(diagonal_mayor*diagonal_menor)/2
 
 # Mostrar los resultados del calculo
 Escribir("El area del rombo es", area, "cm2")
