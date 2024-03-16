@@ -3,17 +3,17 @@
 
 # Paso2: Solicitar el ingreso de datos al usuario
 
-peso = float(input("ingrese su peso en kilogramos: "))
-altura_cm = float(input("ingrese su estatura en centimetros: "))
-altura_m = (altura_cm)/100    
+peso= float(input("ingrese su peso en kilogramos: "))
+altura = float(input("ingrese su estatura en centimetros: "))/100
 
 # Paso3: Realizar el calculo matematico con la formula entregada.
-IMC = peso /(altura_m*altura_m)
+IMC = peso /(altura*altura)
 
 # Paso4: Redondear el IMC a 2 decimales.
 IMC_redondeado = round(IMC,2)
 print("Su indice de masa corporal es", IMC_redondeado, "[kg/m2]")
 
+# Paso5: Establecer las condicionales para la clasificacion.
 if IMC < 18.50 :
     print ("Las clasificacion OMS es Bajo Peso")
 elif 18.5 <= IMC <= 25 :
@@ -24,7 +24,7 @@ elif 30 <= IMC <= 35 :
     print ("Las clasificacion OMS es Obesidad Grado 1")
 elif 35 <= IMC <= 40 :
     print ("Las clasificacion OMS es Obesidad Grado 2")
-elif IMC < 40 :
+elif IMC > 40 :
     print ("Las clasificacion OMS es Obesidad Grado 3")
     
     
