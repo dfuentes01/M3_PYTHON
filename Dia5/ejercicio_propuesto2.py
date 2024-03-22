@@ -1,9 +1,9 @@
 
 # Inicio del programa
-inicio
+# inicio
 
 # Identificar Variables
-base, altura, area
+# base, altura, area
 
 # Recopilar información
 escribir("Ingresar base de triangulo en cm: ")
