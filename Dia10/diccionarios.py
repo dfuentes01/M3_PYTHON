@@ -63,3 +63,5 @@ notas2 ={
 
 notas2.update(notas) #Agrego los datos del diccionario notas al diccionario notas2.
 print(notas2) #{'Alexis': 6, 'Yasna': 6, 'Camila': 7, 'Felipe': 2, 'Mijail': 7, 'felipe': 3}
+
+
