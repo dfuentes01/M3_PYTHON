@@ -1,0 +1,19 @@
+import requests
+
+url = "https://jsonplaceholder.typicode.com/posts/2"
+
+response = requests.get(url)
+print(response) #<Response [200]> 
+
+if response.status_code == 200:
+    print("obtencion correcta")
+    print(response.json()) #{'userId': 1, 'id': 1, 'title': 'sunt aut facere repellat provident occaecati excepturi optio reprehenderit', 'body': 'quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto'}
+    print("")
+    post = response.json() 
+    print(post["title"]) #sunt aut facere repellat provident occaecati excepturi optio reprehenderit
+    print(post["id"]) #1
+
+else:
+    print("Error en la solicitud", response.text,response.status_code)
+
+
